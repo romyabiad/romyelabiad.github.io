@@ -3,26 +3,98 @@
   
   <head>
       <title>Portfolio</title>
+      <meta name="viewport" content="intial-scale=1, width=device-width" />
+      <meta charset="utf-8" />
       
       <link href="style.css" rel="stylesheet" />
+      <link href="sanitize.css" rel="stylesheet" />
       
   </head>
   
   <body>
-    <div class="container">
-                <h1>Romy.</h1>
+      <a href="#content">SKIP TO CONTENT</a>
+    <div class="wrapper">
+        <header>
+            <!-- logo stuff -->
+            <a href="/" class="logo"> 
+                <img src="img/logo.png" alt="romyabiad" />
+                <h2>Romy Abiad</h2>
+            </a>
             
-        <div class="add">
-              
-            <p>Piazza San Marco 1<br>
-            20121 Milan, Italy</p>
+            <!-- navigation stuff -->
+            <nav>
+                <ul>
+                    <li><a href="#">link</a> </li>
+                    <li><a href="#">link</a> </li>
+                    <li><a href="#">link</a> </li>
+                    <li><a href="#">link</a> </li>
+                </ul>
             
-            <p>romy.abiad@hotmail.com<br>
-                +39 347 5520728 </p>
-            <a href="https://www.behance.net/search?search=romy+abiad" target="_blank"> Behance</a>
-      
-      
-        </div>
+            </nav>
+        </header>
+        
+        
+            <!-- multiple projects stuff -->
+        <section id="content" class="projects">
+            <!-- page section -->
+            <h1>My projects</h1>
+            
+            <article>
+                <img src="img/..." alt="" />
+                <h3>Project Title</h3>
+                <p>Project Description</p>
+            </article>
+            
+            <article>
+                <img src="img/..." alt="" />
+                <h3>Project Title</h3>
+                <p>Project Description</p>
+            </article>
+            
+        </section>
+        
+            <!-- single project stuff -->
+        <section class="project">
+            
+            <h1>Project Title</h1>
+            <p>Project Description</p>
+            <a href="http:/www.project.com" class="external-link"> visit the website</a>    
+        </section>
+   
+            <!-- cv stuff -->
+        <section class="cv">
+            
+            <h1>romy abiad</h1>
+            <p>MY Description</p>
+            <p>longer parag</p>
+            <ul>
+                <li>Things I am good at</li>
+                <li>Things I am good at</li>
+                <li>Things I am good at</li>
+            
+            </ul>
+            
+            <h3>Work Experience</h3>
+            <ul>
+                <li>latest</li>
+                <li>older</li>
+            </ul> 
+            <h3>Education</h3>
+            <ul>
+                <li>latest</li>
+                <li>older</li>
+            </ul>
+            
+            </section>
+   
+        
+        
+        <footer>
+            <p>Copyright &copy; 2016 | made with &hearts; <a href="mailto:romy.abiad@hotmail.com"> CONTACT </a> </p>
+        
+        </footer>
+   
+       
     </div>
   
   </body>
