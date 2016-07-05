@@ -296,7 +296,14 @@ a:hover {
     align-items: center;
 }
 
-   
+/* PROJ Page */
+
+.proj-text{
+    margin: -300px 25px;
+    
+    
+    
+}
 
 
 /* iPhone */
@@ -423,6 +430,8 @@ a:hover {
         transition: color 1s ease, border 1s ease;
 }
 
-    
+    .proj-text{
+    margin: -300px 55px;
+    max-width: 800px;
     
 }
