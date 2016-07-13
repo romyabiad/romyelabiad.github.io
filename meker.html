@@ -14,17 +14,58 @@
     
     
     <body>
-        <div class="top">
+        <div class="top"></div>
             <div class="title-content-all">
             <div class="title"><a href="work.html">work</a>
             
                 <div class="proj-ti">meker</div></div>
+                
+                <p title="visual design, user interface">
+                    <span class="tag dark">visual design</span>
+                </p>
         
             <div class="proj-text">
                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder.
             </div>
+        
+                
+                <div class="slideshow">
+
+<img class="mySlides" src="projects/meker/m1.jpg">
+<img class="mySlides" src="projects/meker/m2.jpg">
+<img class="mySlides" src="projects/meker/m3.jpg">
+<img class="mySlides" src="projects/meker/m4.jpg">
+<img class="mySlides" src="projects/meker/m5.jpg">
+<img class="mySlides" src="projects/meker/m6.jpg">
+<img class="mySlides" src="projects/meker/m7.jpg">
+
+<a class="btn-floatingl" onclick="plusDivs(-1)">❮</a>
+<a class="btn-floatingr" onclick="plusDivs(1)">❯</a>
+
+                </div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+                
             
-        </div>
+       
             
 
         

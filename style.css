@@ -301,6 +301,23 @@ a:hover {
 
 /* PROJ Page */
 
+.tag.dark{
+    color: #87898b;
+    border: 1px solid #87898b;    
+}
+
+.tag{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 1px 2px;
+    font-size: 15px;
+    line-height: 27px;
+    margin-left: 16px;
+    
+    
+}
+
 .proj-text{
     margin-left: 20px;
     margin-top: 20px;
@@ -314,6 +331,33 @@ a:hover {
     padding-top: 20px;
 
 }
+.slideshow{
+    padding-top: 40px;
+    max-width: 900px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+}
+
+.mySlides{
+    width: 100%;
+    
+}
+.btn-floatingl{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    cursor: pointer;
+}
+
+.btn-floatingr{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    cursor: pointer;
+    
+}
+
 
 /* iPhone */
 
@@ -449,6 +493,9 @@ a:hover {
 
 }
 
+    .tag{
+    margin-left: 44px;
+}
 
     
 }
