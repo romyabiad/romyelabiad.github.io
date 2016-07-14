@@ -319,6 +319,7 @@ a:hover {
 }
 
 .proj-text{
+    color: #87898b;
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
@@ -331,32 +332,30 @@ a:hover {
     padding-top: 20px;
 
 }
-.slideshow{
-    padding-top: 40px;
-    max-width: 900px;
-    cursor: pointer;
-    position: relative;
-    margin: 0 auto;
+
+.flickity-prev-next-button {
+    display: none;
 }
 
-.mySlides{
+.carousel {
+    margin: 20px;
+}
+
+.carousel div {
     width: 100%;
-    
-}
-.btn-floatingl{
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    cursor: pointer;
+    height: auto;
 }
 
-.btn-floatingr{
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    cursor: pointer;
-    
+.carousel div img {
+    width: 100%;
+    height: auto;
 }
+
+
+    .carousel-celll {
+        max-width: 400px;
+        padding-left: 10px;
+    }
 
 
 /* iPhone */
@@ -493,9 +492,39 @@ a:hover {
 
 }
 
-    .tag{
+    .tag:first-child{
     margin-left: 44px;
 }
 
+
+    .flickity-prev-next-button {
+        display: block;
+    }
+
+    .carousel-cell {
+        max-width: 900px;
+        padding-left: 10px;
+    }
+
+    .carousel-celll {
+        max-width: 400px;
+        padding-left: 10px;
+    }
+
     
 }
+
+.carousel {
+    margin: 20px;
+}
+
+.carousel div {
+    width: 100%;
+    height: auto;
+}
+
+.carousel div img {
+    width: 100%;
+    height: auto;
+}
+
