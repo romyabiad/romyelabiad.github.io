@@ -154,6 +154,12 @@ a:hover {
     width: 100%;
 }
 
+.skills img{
+    width: 20%;
+    margin-bottom: 20px;
+
+}
+
 #skills-wrap .top {
     position: relative;
 }
@@ -166,9 +172,8 @@ a:hover {
 #skills-wrap {
     width: 350px;
     padding-left: 40px;
-    padding-top: 48px;
     float: left;
-    margin: 0 auto;
+    margin: 20px auto;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
 }
@@ -358,6 +363,20 @@ a:hover {
     }
 
 
+.gif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.gif img{
+    margin: 0 auto;
+    min-width: 400px;
+}
+
+
 /* iPhone */
 
 @media (min-width: 320px) {
@@ -408,7 +427,7 @@ a:hover {
         font-size: 15px;
     }
     #skills-wrap {
-        margin-top: 250px;
+        margin-top: 200px;
     }
     #image-picture {}
     #education-wrap {
@@ -528,3 +547,11 @@ a:hover {
     height: auto;
 }
 
+.gif{
+    width: 100%;
+}
+
+.gif img{
+    margin: 40px auto;
+    width: 600px; 
+}
