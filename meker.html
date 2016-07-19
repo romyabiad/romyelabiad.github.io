@@ -8,7 +8,8 @@
         <title>ROMY.</title>
         
         <link href="style.css" rel="stylesheet">
-       <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="css/flickity.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         
     </head>
     
@@ -25,49 +26,20 @@
                 </p>
         
             <div class="proj-text">
-                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder.
+              text
             </div>
         
-                
-                <div class="slideshow">
-
-<img class="mySlides" src="projects/meker/m1.jpg">
-<img class="mySlides" src="projects/meker/m2.jpg">
-<img class="mySlides" src="projects/meker/m3.jpg">
-<img class="mySlides" src="projects/meker/m4.jpg">
-<img class="mySlides" src="projects/meker/m5.jpg">
-<img class="mySlides" src="projects/meker/m6.jpg">
-<img class="mySlides" src="projects/meker/m7.jpg">
-
-<a class="btn-floatingl" onclick="plusDivs(-1)">❮</a>
-<a class="btn-floatingr" onclick="plusDivs(1)">❯</a>
-
+                <div class="carousel" data-flickity='{ "imagesLoaded": true }'>
+                  <div class="carousel-cell"><img class="" src="projects/meker/m1.jpg"></div>
+                  <div class="carousel-cell"><img class="" src="projects/meker/m2.jpg"></div>
+                  <div class="carousel-cell"><img class="" src="projects/meker/m3.jpg"></div>
+                  <div class="carousel-cell"><img class="" src="projects/meker/m4.jpg"></div>
+                  <div class="carousel-cell"><img class="" src="projects/meker/m5.jpg"></div>
+                  <div class="carousel-cell"><img class="" src="projects/meker/m6.jpg"></div>
+                  <div class="carousel-cell"><img class="" src="projects/meker/m7.jpg"></div>
                 </div>
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-                
-            
-       
-            
-
-        
+    <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
     </body>
 </html>

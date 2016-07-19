@@ -154,6 +154,12 @@ a:hover {
     width: 100%;
 }
 
+.skills img{
+    width: 20%;
+    margin-bottom: 20px;
+
+}
+
 #skills-wrap .top {
     position: relative;
 }
@@ -166,9 +172,8 @@ a:hover {
 #skills-wrap {
     width: 350px;
     padding-left: 40px;
-    padding-top: 48px;
     float: left;
-    margin: 0 auto;
+    margin: 20px auto;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
 }
@@ -319,6 +324,7 @@ a:hover {
 }
 
 .proj-text{
+    color: #87898b;
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
@@ -331,31 +337,43 @@ a:hover {
     padding-top: 20px;
 
 }
-.slideshow{
-    padding-top: 40px;
-    max-width: 900px;
-    cursor: pointer;
-    position: relative;
-    margin: 0 auto;
+
+.flickity-prev-next-button {
+    display: none;
 }
 
-.mySlides{
+.carousel {
+    margin: 20px;
+}
+
+.carousel div {
     width: 100%;
-    
-}
-.btn-floatingl{
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    cursor: pointer;
+    height: auto;
 }
 
-.btn-floatingr{
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    cursor: pointer;
-    
+.carousel div img {
+    width: 100%;
+    height: auto;
+}
+
+
+.carousel-celll {
+    max-width: 400px;
+    padding-left: 10px;
+    }
+
+
+.gif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.gif img{
+    margin: 0 auto;
+    min-width: 400px;
 }
 
 
@@ -409,7 +427,7 @@ a:hover {
         font-size: 15px;
     }
     #skills-wrap {
-        margin-top: 250px;
+        margin-top: 200px;
     }
     #image-picture {}
     #education-wrap {
@@ -493,9 +511,47 @@ a:hover {
 
 }
 
-    .tag{
+    .tag:first-child{
     margin-left: 44px;
 }
 
+
+    .flickity-prev-next-button {
+        display: block;
+    }
+
+    .carousel-cell {
+        max-width: 900px;
+        padding-left: 10px;
+    }
+
+    .carousel-celll {
+        max-width: 400px;
+        padding-left: 15px;
+    }
+
     
+}
+
+.carousel {
+    margin: 20px;
+}
+
+.carousel div {
+    width: 100%;
+    height: auto;
+}
+
+.carousel div img {
+    width: 100%;
+    height: auto;
+}
+
+.gif{
+    width: 100%;
+}
+
+.gif img{
+    margin: 40px auto;
+    width: 600px; 
 }
